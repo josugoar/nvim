@@ -1,1 +1,10 @@
-
+vim.keymap.set("n", "<leader>y", '"+y', { desc = "Yank Text" })
+vim.keymap.set("x", "<leader>y", '"+y', { desc = "Yank Text" })
+vim.keymap.set("n", "<leader>yy", '"+yy', { desc = "Yank Text" })
+vim.keymap.set("n", "<leader>Y", '"+Y', { desc = "Yank Text" })
+vim.keymap.set("n", "<leader>p", '"+p', { desc = "Put Text From Clipboard After Cursor" })
+vim.keymap.set("n", "<leader>P", '"+P', { desc = "Put Text From Clipboard Before Cursor" })
+vim.keymap.set("n", "<leader>gp", '"+gp', { desc = "Put Text From Clipboard After Selection" })
+vim.keymap.set("n", "<leader>gP", '"+gP', { desc = "Put Text From Clipboard Before Selection" })
+vim.keymap.set("n", "<leader>]p", '"+]p', { desc = "Put Indented From Clipboard After Cursor" })
+vim.keymap.set("n", "<leader>[p", '"+[p', { desc = "Put Indented From Clipboard Before Cursor" })
