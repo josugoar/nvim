@@ -1,1 +1,1 @@
-# 💤 LazyVim
+## 💤 LazyVim
