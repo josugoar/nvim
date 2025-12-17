@@ -34,3 +34,4 @@ local comment = vscode.to_op(function(ctx)
 end)
 
 k({ "n", "x" }, "gc", comment)
+k({ "n", "x" }, "<Plug>VSCodeCommentary", comment)
